@@ -11,7 +11,8 @@ h1 {
   margin-bottom: 15px;
 }
 
-h2 {
+h2,
+h3 {
   color: #ff8c00;
   font-size: 21px;
   text-transform: uppercase;
@@ -21,6 +22,7 @@ h2 {
 p {
   font-size: 18px;
   color: #c0c0c0;
+  margin-bottom: 15px;
 }
 
 body {
@@ -85,12 +87,12 @@ body {
 }
 
 .skills-grid ul {
-list-style-type: circle;
+  list-style-type: circle;
 }
 
 .skills-grid {
   display: grid;
-  grid-template-columns:repeat(auto-fit, minmax(200px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px;
 }
 
@@ -100,11 +102,11 @@ list-style-type: circle;
   border-radius: 0 4px 4px 0;
 }
 
-.skills-card h2{
+.skills-card h2 {
   text-align: center;
 }
 
-.skills-card li{
+.skills-card li {
   display: flex;
   justify-content: start;
   align-items: center;
@@ -117,4 +119,38 @@ li::before {
   content: '»';
   color: #00ffff;
   font-weight: bold;
+}
+
+/* Sección de Mis Proyectos */
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #1a3a5a;
+  border: 1px solid #3a7a9a;
+  border-radius: 4px;
+}
+
+.project-card img {
+  width: 100%;
+  border-bottom: 1px solid #3a7a9a;
+}
+
+.project-info {
+  padding: 10px;
+}
+
+.project-links {
+  padding: 10px;
+}
+
+.project-links a{
+  margin-right: 10px;
+  color: #ff8c00;
+  font-weight: bold;
+  text-decoration: none;
 }
