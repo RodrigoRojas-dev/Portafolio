@@ -133,6 +133,11 @@ li::before {
 
 /* Sección de Mis Proyectos */
 
+.tech-used {
+  font-size: 14px;
+  font-style: italic;
+}
+
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
