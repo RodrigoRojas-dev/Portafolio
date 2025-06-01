@@ -40,6 +40,29 @@ body {
   position: relative;
 }
 
+/* Sección de Mi Perfil */
+.section-panel::before,
+.section-panel::after {
+  content: '';
+  width: 20px;
+  height: 20px;
+  border-color: #00ffff;
+  border-style: solid;
+  position: absolute;
+}
+
+::before {
+  top: -2px;
+  left: -2px;
+  border-width: 2px 0 0 2px;
+}
+
+::after {
+  bottom: -2px;
+  right: -2px;
+  border-width: 0 2px 2px 0;
+}
+
 .img-perfil {
   display: flex;
   align-items: center;
