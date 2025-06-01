@@ -3,6 +3,16 @@
   padding: 0;
 }
 
+h1,
+h2,
+h3 {
+  font-family: 'Orbitron', sans-serif;
+}
+
+body, a, textarea {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
 h1 {
   color: #00ffff;
   text-transform: uppercase;
@@ -157,7 +167,8 @@ li::before {
 
 /* Sección de Mi Constactos */
 
-input, textarea {
+input,
+textarea {
   background-color: #0a1a2a;
   border: 1px solid #3a7a9a;
   border-radius: 4px;
@@ -227,5 +238,5 @@ textarea {
 /* Footer */
 
 footer p {
-text-align: center;
+  text-align: center;
 }
