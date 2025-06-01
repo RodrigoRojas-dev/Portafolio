@@ -223,3 +223,9 @@ textarea {
 .social-flex img {
   width: 40px;
 }
+
+/* Footer */
+
+footer p {
+text-align: center;
+}
