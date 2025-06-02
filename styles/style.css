@@ -75,6 +75,10 @@ width: 30px;
   text-shadow: 0 0 5px #00ffff;
 }
 
+#navbarNav {
+  justify-content: end;
+}
+
 .navbar-brand img {
   width: 40px;
 }
