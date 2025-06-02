@@ -9,7 +9,9 @@ h3 {
   font-family: 'Orbitron', sans-serif;
 }
 
-body, a, textarea {
+body,
+a,
+textarea {
   font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -40,11 +42,16 @@ body {
   line-height: 1.6;
 }
 
+main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
 .section-panel {
   background-color: rgba(26, 58, 90, 0.8);
-  margin: 0 auto;
   margin-bottom: 40px;
-  width: 1200px;
+  width: 90%;
   padding: 30px;
   border: 2px solid #3a7a9a;
   border-radius: 4px;
