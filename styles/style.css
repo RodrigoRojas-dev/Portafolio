@@ -112,12 +112,12 @@ main {
 .btn-bt {
   position: fixed;
   width: 5%;
-  border: 2px solid #ff8c00 ;
+  border: 2px solid #ff8c00;
   border-radius: 50%;
   padding: 5px;
   bottom: 20px;
   right: 20px;
-  background-color: #1a3a5a ;
+  background-color: #1a3a5a;
 }
 
 .btn-bt:hover {
@@ -347,9 +347,15 @@ textarea {
 
 footer p {
   text-align: center;
+  padding-bottom: 10px;
 }
 
 @media (max-width: 800px) {
+
+footer p {
+  text-align: center;
+  margin: 0 45px;
+}
 
   .btn-bt {
     width: 40px;
@@ -357,7 +363,11 @@ footer p {
 }
 
 @media (max-width: 650px) {
-  
+
+  .img-perfil img {
+    width: 150px;
+  }
+
   .btn-bt {
     width: 40px;
     right: 10px;
