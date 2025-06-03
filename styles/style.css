@@ -108,6 +108,28 @@ main {
   position: relative;
 }
 
+/* Seccion del boton al inicio */
+.btn-bt {
+  position: fixed;
+  width: 5%;
+  border: 2px solid #ff8c00 ;
+  border-radius: 50%;
+  padding: 5px;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1a3a5a ;
+}
+
+.btn-bt:hover {
+  border: 2px solid #00ffff;
+  color: #00ffff;
+  box-shadow: 0 0 5px #00ffff, inset 0 0 5px #00ffff;
+}
+
+.btn-bt:hover svg {
+  filter: drop-shadow(0 0 5px #00ffff);
+}
+
 /* Sección de Mi Perfil */
 .section-panel::before,
 .section-panel::after {
@@ -325,4 +347,19 @@ textarea {
 
 footer p {
   text-align: center;
+}
+
+@media (max-width: 800px) {
+
+  .btn-bt {
+    width: 40px;
+  }
+}
+
+@media (max-width: 650px) {
+  
+  .btn-bt {
+    width: 40px;
+    right: 10px;
+  }
 }
